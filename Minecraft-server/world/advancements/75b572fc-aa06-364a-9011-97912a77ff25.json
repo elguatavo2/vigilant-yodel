@@ -1,0 +1,62 @@
+{
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2024-02-26 00:01:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2024-02-26 00:01:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2024-02-26 00:01:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2024-02-26 00:01:05 +0000"
+    },
+    "done": true
+  },
+  "nocubessrparmory:advsrparmoryroot": {
+    "criteria": {
+      "advsrparmoryroot": "2024-02-26 00:01:02 +0000"
+    },
+    "done": true
+  },
+  "nocubessrpnests:advsrpnestsaddonroot": {
+    "criteria": {
+      "advsrpnestsaddonroot": "2024-02-26 00:01:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2024-02-26 00:01:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2024-02-26 00:01:05 +0000"
+    },
+    "done": true
+  },
+  "nocubessrpsurvival:advparasitesurvivalroot": {
+    "criteria": {
+      "advparasitesurvivalroot": "2024-02-26 00:01:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "ocean": "2024-02-26 00:01:03 +0000"
+    },
+    "done": false
+  }
+}

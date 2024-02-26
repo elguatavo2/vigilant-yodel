@@ -1,0 +1,71 @@
+[00:01:01] [User Authenticator #1/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player elguatavo7u7159 is 75b572fc-aa06-364a-9011-97912a77ff25
+[00:01:01] [Server thread/WARN] [net.minecraft.stats.StatisticsManagerServer]: Invalid statistic in ./world/stats/75b572fc-aa06-364a-9011-97912a77ff25.json: Don't know what stats is
+[00:01:01] [Server thread/WARN] [net.minecraft.stats.StatisticsManagerServer]: Invalid statistic in ./world/stats/75b572fc-aa06-364a-9011-97912a77ff25.json: Don't know what DataVersion is
+[00:01:01] [Server thread/ERROR] [net.minecraft.advancements.PlayerAdvancements]: Couldn't parse player advancements in ./world/advancements/75b572fc-aa06-364a-9011-97912a77ff25.json
+com.google.gson.JsonSyntaxException: Expected advancement to be a JsonObject, was a number (3465)
+	at net.minecraft.util.JsonUtils.func_151210_l(SourceFile:393) ~[rc.class:?]
+	at net.minecraft.advancements.AdvancementProgress$Serializer.deserialize(SourceFile:237) ~[k$a.class:?]
+	at net.minecraft.advancements.AdvancementProgress$Serializer.deserialize(SourceFile:217) ~[k$a.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[TypeAdapterRuntimeTypeWrapper.class:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:187) ~[MapTypeAdapterFactory$Adapter.class:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[MapTypeAdapterFactory$Adapter.class:?]
+	at net.minecraft.util.JsonUtils.func_193838_a(SourceFile:504) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_193837_a(SourceFile:512) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_193840_a(SourceFile:527) ~[rc.class:?]
+	at net.minecraft.advancements.PlayerAdvancements.func_192740_f(PlayerAdvancements.java:132) [np.class:?]
+	at net.minecraft.advancements.PlayerAdvancements.<init>(PlayerAdvancements.java:58) [np.class:?]
+	at net.minecraft.server.management.PlayerList.func_192054_h(PlayerList.java:1858) [pl.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.<init>(EntityPlayerMP.java:233) [oq.class:?]
+	at net.minecraft.server.management.PlayerList.allowUserToConnect(PlayerList.java:665) [pl.class:?]
+	at net.minecraft.server.network.NetHandlerLoginServer.func_147326_c(NetHandlerLoginServer.java:151) [pc.class:?]
+	at net.minecraft.server.network.NetHandlerLoginServer.func_73660_a(NetHandlerLoginServer.java:74) [pc.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:298) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:196) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:922) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:461) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:778) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:624) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[00:01:01] [Server thread/TRACE] [FML]: Handshake channel activating
+[00:01:01] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[00:01:01] [Server thread/DEBUG] [FML]:   Next: HELLO
+[00:01:01] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[00:01:01] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $ModList:21 mods->FMLHandshakeServerState$2:HELLO
+[00:01:01] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 21 mods : minecraft@1.12.2,nocubessrparmory@3.0.0,FML@8.0.99.99,silentlib@3.0.13,srparasites@1.9.18,baubles@1.5.2,waila@1.8.26,jei@4.16.1.1012,tlauncher_custom_cape_skin@1.4,travellersbackpack@1.0.27,nocubessrpsurvival@3.0.0,forge@14.23.5.2860,scalinghealth@1.3.37,sexmod@1.3 beta,geckolib3@3.0.20,mcp@9.42,gravestone@1.10.2,nocubessrpnests@3.0.0,journeymap@1.12.2-5.7.0,securitycraft@v1.9.8,artifacts@1.12.2-1.1.0
+[00:01:01] [Netty Epoll Server IO #2/INFO] [FML]: Forge Mod Loader has successfully loaded [mohist] modCLIENT
+[00:01:01] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
+[00:01:01] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: WAITINGCACK
+[00:01:01] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[00:01:01] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: COMPLETE
+[00:01:02] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[00:01:02] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: DONE
+[00:01:02] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[00:01:02] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:01:02] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'forge:entity_gravity'
+[00:01:02] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'forge:step_height'
+[00:01:02] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'minecraft:generic.movement_speed'
+[00:01:02] [Server thread/INFO] [Waila]: Player EntityPlayerMP['elguatavo7u7159'/1548, uuid='75b572fc-aa06-364a-9011-97912a77ff25', l='world', x=-74.32, y=66.00, z=-366.18, cx=-5, cd=-23, tl=1311, v=true, d=false](elguatavo7u7159 at -74.32175255841051,66.0,-366.17857742051) connected. Sending ping
+[00:01:02] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: elguatavo7u7159[/127.0.0.1:33852] logged in with entity id 1548 at ([world]-74.32175255841051, 66.0, -366.17857742051)
+[00:01:02] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[00:01:23] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: elguatavo7u7159 lost connection: Disconnected
+[00:01:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: elguatavo7u7159 left the game
+[00:03:03] [Thread-23/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[00:03:03] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_252]
+	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_252]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[?:1.8.0_252]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[?:1.8.0_252]
+	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:166) ~[NonBlockingInputStream.class:?]
+	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:135) ~[NonBlockingInputStream.class:?]
+	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:243) ~[NonBlockingInputStream.class:?]
+	at jline.internal.InputStreamReader.read(InputStreamReader.java:257) ~[InputStreamReader.class:?]
+	at jline.internal.InputStreamReader.read(InputStreamReader.java:194) ~[InputStreamReader.class:?]
+	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2136) ~[ConsoleReader.class:?]
+	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2126) ~[ConsoleReader.class:?]
+	at jline.console.ConsoleReader.readBinding(ConsoleReader.java:2211) ~[ConsoleReader.class:?]
+	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2460) ~[ConsoleReader.class:?]
+	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2372) ~[ConsoleReader.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:122) [nz$2.class:?]
+[00:03:03] [Thread-23/INFO] [net.minecraft.server.MinecraftServer]: Saving players
